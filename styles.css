@@ -1,0 +1,40 @@
+body {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.main-container {
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  width: 19rem;
+  height: 2rem;
+  background-color: rgb(1, 187, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: rgb(104, 206, 243);
+}
+.message {
+  color: red;
+  font-size: 15px;
+}
+.user-list {
+  width: 30rem;
+  border: solid 1px;
+  margin: 0 auto;
+  font-size: small;
+}

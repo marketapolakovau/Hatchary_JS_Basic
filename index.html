@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to our example form app!</h1>
+    <p>Please use the register form</p>
+    <div class="main-container">
+      <div class="input-container">
+        <input id="username" type="text" placeholder="Enter username..." />
+        <div class="message"><p id="invalid-username"></p></div>
+        <input id="password" type="password" placeholder="Enter password..." />
+        <div class="message"><p id="invalid-password"></p></div>
+
+        <input id="confirm" type="password" placeholder="Confirm password..." />
+        <div class="message"><p id="invalid-confirm-password"></p></div>
+
+        <input id="email" type="email" placeholder="Enter email..." />
+        <div class="message"><p id="invalid-email"></p></div>
+
+        <input id="date" type="date" />
+        <button id="register-button">register</button>
+      </div>
+      <div class="user-list-container">
+        <h2>User list</h2>
+        <div class="user-list">
+          <p id="empty">Empty</p>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
